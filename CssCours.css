@@ -11,7 +11,8 @@ h2
 
 .button
 {
-	margin: 390px;
+	margin: 190px;
+	margin-right: 900px;
 	text-decoration: none ;
 	font-size: 25px;
 	color: Red;
@@ -101,9 +102,101 @@ h2
 h3
 {
 	color: white;
-	text-align: center;
+	text-align: left;
+	border: solid white 5px ;
+	margin-bottom: 400;
+	margin-left: 900px;
+	margin-right: 720px;
+
 }
 
 
 
+.button3
+{
+	margin: 100px;
+	text-decoration: none ;
+	font-size: 25px;
+	margin-right: 100px;
+	margin-left: 50px;
+	margin-top: 100px;
+	color: Red;
+	padding: 20px 50px;
+	border: 3px solid;
+	position: relative;
+	float: right;
+}
 
+.button3::before,
+.button3::after{
+	content: "";
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border: inherit;
+	transition: all .6s;
+
+}
+
+.button3::before{
+	top: -15px;
+	left: -15px;
+	border-width: 3px 0 0 3px;
+}
+
+.button3::after{
+	bottom: -15px;
+	right: -15px;
+	border-width: 0 3px 3px 0;
+}
+
+.button3:hover::before,
+.button3:hover::after{
+	width: calc(100% + 27px);
+	height: calc(100% + 27px);
+}
+
+
+.button4
+{
+	margin: 100px;
+	text-decoration: none ;
+	font-size: 25px;
+	margin-right: 100px;
+	margin-left: 50px;
+	margin-top: 200px;
+	color: Red;
+	padding: 20px 50px;
+	border: 3px solid;
+	position: relative;
+	float: right;
+}
+
+.button4::before,
+.button4::after{
+	content: "";
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border: inherit;
+	transition: all .6s;
+
+}
+
+.button4::before{
+	top: -15px;
+	left: -15px;
+	border-width: 3px 0 0 3px;
+}
+
+.button4::after{
+	bottom: -15px;
+	right: -15px;
+	border-width: 0 3px 3px 0;
+}
+
+.button4:hover::before,
+.button4:hover::after{
+	width: calc(100% + 27px);
+	height: calc(100% + 27px);
+}
